@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+}
+
+header {
+    background-color: #122A57;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-items {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .list-items li a {
+    color: #fff;
+}
+
+header .menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .apresentation {
+    height: 92vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentation .text-apresentation h1 {
+    font-size: 48px;
+    color: #122A57;
+}
+
+.apresentation .text-apresentation a, .plan-card a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #122A57;
+    border-radius: 48px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.about {
+    flex-direction: row-reverse; /* inverte a sequencia dos elementos dentro do flex*/
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 4.1rem;
+}
+
+.about .text-about h2 {
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 1.6rem;
+}
+
+.about .text-about h2::before {
+    content: "";
+    height: 2.5rem;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+
+.about .text-about {
+    max-width: 25rem;
+}
+
+.text-about p {
+    margin-top: 1rem;
+}
+
+.about img {
+    min-width: 26.5rem;
+}
+
+.services {
+    width: 100%;
+    background: #122A57;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.services .flex-container {
+    flex-direction: column;
+}
+
+.flex-container div h2 {
+    color: #122A57;
+    font-size: 34px;
+    margin: 4rem 0;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card p {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+    color: #122A57;
+    background-color: #fff;
+    border-radius: 48px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.plans {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.plans .plan-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+.plan-card {
+    flex: 1;
+    border: 4px solid #122A57;
+    margin-right: 1.5rem;
+    padding: 1rem;
+    max-width: 10.5rem;
+}
+
+.plan-card h3 {
+    font: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan-card h3::after {
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+.plan-card a {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.plan-card ul {
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-card ul li {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.plan-card ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 0.5rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #122A57;
+    height: 8vh;
+}
+

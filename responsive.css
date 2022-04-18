@@ -1,0 +1,55 @@
+@media(max-width:992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .apresentation, .about {
+        flex-direction: column-reverse;
+        margin-top: 14rem;
+    }
+
+    .about {
+        margin-bottom: 10rem;
+    }
+
+    main .apresentation {
+        height: auto;
+    }
+
+    .services .flex-container {
+        width: 90%;
+    }
+
+    .services-cards {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    .services-cards img {
+        width: 50%;
+        margin:auto;
+    }
+
+    .plans div h2 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+    
+    .plan-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .plan-card {
+        max-width: 90%;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .card a {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

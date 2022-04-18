@@ -56,6 +56,10 @@ main .apresentation {
     justify-content: space-between;
 }
 
+.text-apresentation p {
+    margin-bottom: 1rem;
+}
+
 .apresentation .text-apresentation h1 {
     font-size: 48px;
     color: #122A57;
@@ -75,7 +79,6 @@ main .apresentation {
     flex-direction: row-reverse; /* inverte a sequencia dos elementos dentro do flex*/
     align-items: center;
     justify-content:space-between;
-    margin-bottom: 4.1rem;
 }
 
 .about .text-about h2 {
@@ -118,7 +121,7 @@ main .apresentation {
 }
 
 .flex-container div h2 {
-    color: #122A57;
+    color: #fff;
     font-size: 34px;
     margin: 4rem 0;
 }
@@ -148,6 +151,10 @@ main .apresentation {
 .plans {
     flex-direction: column;
     min-height: 100vh;
+}
+
+.plans div h2 {
+    color: #122A57;
 }
 
 .plans .plan-container {
@@ -206,8 +213,12 @@ main .apresentation {
 }
 
 footer {
-    width: 100%;
     background-color: #122A57;
     height: 8vh;
 }
 
+.footer-content {
+    padding: 1.5rem;
+    color: #fff;
+    width: 90%;
+}
